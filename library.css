@@ -1,0 +1,217 @@
+*{
+   
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #1e1c1c;
+    
+}
+nav{
+    background-color: #fff;
+    display: flex;
+    padding: 0 20px ;
+    justify-content: space-between;
+    
+}
+    
+nav .profile{
+    
+    display: flex;
+    margin: 10px 20px;
+}
+.logo img{
+    height: 60px;
+    width: 200px;
+    object-fit: contain;
+   
+}
+nav .profile .login{
+    background-color: red;
+    padding: 10px 55px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 600;
+    margin: 0 10px;
+}
+nav .profile .login:hover{
+    background-color: #fff;
+color: #181818;
+transition:0.2s ;
+}
+nav .profile .signup{
+    background-color: transparent;
+    color: #050000;
+    padding: 10px 40px;
+    border: 2px solid #575252;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 600;
+}
+nav .profile .signup:hover{
+    background-color: red;
+    color: #181818;
+    transition:0.2s ;
+}
+.banner{
+    background:linear-gradient(90deg, #fcfbfb 1%, hsla(0, 3%, 92%, 0.98) 3%, hsla(0, 2%, 82%, 0.97) 5%, hsla(0, 1%, 70%, 0.95) 10%, hwb(0 58% 41% / 0.94) 20%, hsla(0, 0%, 52%, 0.92) 30%, hsla(0, 0%, 41%, 0.9) 35%, hsla(0, 0%, 41%, 0.87) 40%, hsla(0, 1%, 35%, 0.82) 45%, hsla(0, 0%, 28%, 0.75) 50%, hsla(0, 0%, 23%, 0.63) 55%, hsla(0, 0%, 20%, 0.45) 60%, hsla(0, 0%, 16%, 0.27) 65%, hsla(0, 0%, 11%, 0.15) 70%, hsla(0, 0%, 4%, 0.08) 80%, hsla(0, 0%, 6%, 0.03) 95%, hsla(0, 7%, 3%, 0) ),url("https://webmaster.giet.ac.in/public/storage/user_storage/1/Library3.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    max-width: 100%;
+    
+    
+}
+.bannertitle h1{
+    font-size: 50px;
+    color: #050000;
+    font-style: oblique;
+   
+}
+.bannertitle input{
+    height: 50px;
+    width: 700px;
+    margin: 20px 5px;
+}
+ .bannertitle {
+  padding: 80px 150px;
+}
+.search{
+    display: flex;
+}
+.search img{
+    height: 50px;
+    width:50px;
+    margin-right:300px ;
+    margin-top: 20px;
+    background-color: #fcfbfb;
+}
+.posters{
+    
+    display: flex;
+    overflow-y: hidden;
+    overflow-x:scroll;
+    justify-content: space-between;
+    border: 2px solid white;
+    
+  }
+.posters::-webkit-scrollbar{
+display:none;
+
+}
+.poster {
+    height: 250px;
+    width: 370px;
+    margin: 10px;
+    border-radius: 8%;
+    padding: 10px;
+    
+    
+}
+
+.branch{
+    background-color: #fcfbfb;
+    border: 2px solid white;
+    margin: 5px;
+    border-radius: 15px;
+    
+    animation: scroll 5s linear infinite;
+}
+.branch:hover{
+    background-color:hsla(0, 0%, 20%, 0.45);
+color: #4e4d4d;
+transition:0.2s ;
+}
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Adjust this value to control the scroll distance */
+}
+
+.branch h3{
+padding:20px ;
+margin: 5px;
+font-size: 30px;
+color: #050000;
+}
+.branch h3:hover{
+    color: #fff;
+}
+.branch a{
+    text-decoration: none;
+}
+.branch button{
+    height: 50px;
+    width: 100px;
+    margin-left: 150px;
+    margin-bottom:1px ;
+
+}
+.purpose{
+    background:linear-gradient(90deg, #181818 15%, hsla(0, 0%, 9%, .98) 16%, hsla(0, 0%, 9%, .97) 18%, hsla(0, 0%, 9%, .95) 20%, hsla(0, 0%, 9%, .94) 25%, hsla(0, 0%, 9%, .92) 30%, hsla(0, 0%, 9%, .9) 35%, hsla(0, 0%, 9%, .87) 40%, hsla(0, 0%, 9%, .82) 45%, hsla(0, 0%, 9%, .75) 50%, hsla(0, 0%, 9%, .63) 55%, hsla(0, 0%, 9%, .45) 60%, hsla(0, 0%, 9%, .27) 65%, hsla(0, 0%, 9%, .15) 70%, hsla(0, 0%, 9%, .08) 80%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0) ),url("https://static.vecteezy.com/system/resources/previews/001/925/931/large_2x/digital-library-concept-free-vector.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    max-width: 100%;
+}
+.purpose .info{
+    padding: 100px 800px 0 20px;
+    
+    
+}
+.purpose .info h1{
+    color:aliceblue ;
+    font-size: 50px;
+}
+.purpose .info p{
+    color: white;
+    font-size: 20px;
+}
+footer{
+    padding: 50px 4% 10px ;
+    color: #666;
+    border: 2px solid white;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 50px 0;
+    color: #666;
+}
+footer .row{
+    display: flex;
+    align-items: start;
+    padding: 10px 0px;
+}
+footer .row .col{
+    margin: 10px 50px;
+}
+footer .row .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block;
+}
+footer button{
+    margin: 0 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 100px;
+}
+footer button i{
+    border: none;
+}
+footer button select{
+    border: none;
+}

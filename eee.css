@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #1e1c1c;
+    
+  }
+  nav{
+    background-color: #fff;
+    display: flex;
+    padding: 0 20px ;
+    justify-content: space-between;
+    
+  }
+    
+  nav .profile{
+    
+    display: flex;
+    margin: 10px 20px;
+  }
+  .logo img{
+    height: 60px;
+    width: 200px;
+    object-fit: contain;
+   
+  }
+  nav .profile .login{
+    background-color: red;
+    padding: 10px 55px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 600;
+    margin: 0 10px;
+  }
+  nav .profile .login:hover{
+    background-color: #fff;
+  color: #181818;
+  transition:0.2s ;
+  transform: scale(1.09);
+  border: 1px solid #050000;
+  }
+  nav .profile .signup{
+    background-color: transparent;
+    color: #050000;
+    padding: 10px 40px;
+    border: none;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 600;
+  }
+  nav .profile .signup:hover{
+    background-color: red;
+    color: #181818;
+    transition:0.2s ;
+    transform: scale(1.09);
+  }
+  footer{
+   
+    color: #666;
+    padding-top: 1px;
+  }
+  footer h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 50px 0;
+    color: hsl(0, 14%, 99%);
+  }
+  footer .row{
+    display: flex;
+    align-items: start;
+    padding: 10px 0px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+  }
+  footer .row .col{
+    margin: 5px 50px;
+  }
+  footer .row .col a{
+    text-decoration: none;
+    color: #918f8f;
+    font-size: 15px;
+    padding: 8px;
+    display: block;
+  }
+  footer .row .row1 .col{
+    margin: 5px 50px;
+  }
+  footer .row .row1 .col a{
+    text-decoration: none;
+    color: #918f8f;
+    font-size: 15px;
+    padding: 8px;
+    display: block;
+  }
+  .footer-bottom{
+    background-color: #050000;
+    width:100%;
+    color: #fcfbfb;
+    padding: 20px;
+  }
+  .background {
+    background:linear-gradient(90deg, #e9e6e6 0%, hsla(0, 2%, 80%, 0.88) 1%, hsla(0, 1%, 69%, 0.87) 5%, hsla(0, 1%, 60%, 0.85) 7%, hwb(0 59% 41% / 0.84) 20%, hsla(0, 0%, 52%, 0.92) 30%, hsla(0, 0%, 41%, 0.9) 35%, hsla(0, 0%, 41%, 0.87) 40%, hsla(0, 1%, 35%, 0.82) 45%, hsla(0, 0%, 28%, 0.75) 50%, hsla(0, 0%, 23%, 0.63) 55%, hsla(0, 0%, 20%, 0.45) 60%, hsla(0, 0%, 16%, 0.27) 65%, hsla(0, 0%, 11%, 0.15) 70%, hsla(0, 0%, 4%, 0.08) 80%, hsla(0, 0%, 6%, 0.03) 95%, hsla(0, 7%, 3%, 0) ),url("	https://wallpapercave.com/dwp1x/wp3027349.jpg");
+      background-position: center center;
+      background-size: cover;
+      max-width: 100%;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 510px;
+      background-color: antiquewhite;
+      padding: 80px 150px;
+    }
+    .background h1{
+      font-size: 50px;
+  
+    }
+    .background .search{
+      display: flex;
+      border: 2px solid black;
+      border-radius: 1%;
+      height: 50px;
+      width: 600px;
+      margin: 20px 5px;
+      background-color: #fff;
+  }
+  .background .search input{
+    border: solid transparent;
+    padding:10px 370px 10px 10px ;
+    font-size: 15px;
+  }
+  .background .search i{
+  size: 20px;
+  padding: 15px 10px 10px 0;
+  }
+  .years{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x:scroll;
+    justify-content: space-between;
+    border: 2px solid white;
+  }
+  .image{
+    height: 250px;
+    width: 290px;
+    margin: 10px 5px;
+    border-radius: 8%;
+    padding: 10px;
+  }
+  .year{
+    background-color: #fcfbfb;
+    border: 2px solid white;
+    margin: 15px;
+    border-radius: 15px;
+  }
+  .year:hover{
+    background-color:hsla(0, 0%, 20%, 0.45);
+  color: #4e4d4d;
+  }
+  .year h3{
+    padding:20px ;
+    margin: 5px;
+    font-size: 30px;
+    color: #050000;
+    text-align: center;
+    }
+    .year h3:hover{
+        color: #fff;
+    }
+    .year a{
+        text-decoration: none;
+    }
